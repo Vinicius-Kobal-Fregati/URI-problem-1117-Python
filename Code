@@ -1,0 +1,13 @@
+z = 0
+x = 0
+media = 0
+while z < 2:
+  x = float(input())
+  if x >= 0 and x <= 10:
+    z += 1
+    media = (media + x)/z 
+  else:
+    print('nota invalida')
+  if z == 2:
+    print('media =', media)
+    break        
